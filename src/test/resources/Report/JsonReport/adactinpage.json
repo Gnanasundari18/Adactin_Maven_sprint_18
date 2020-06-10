@@ -1,0 +1,177 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 32,
+        "name": "To verify the user can able login with correct credentials",
+        "description": "",
+        "id": "to-validate-the-hotel-select-functionality;to-verify-the-user-can-able-login-with-correct-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11844382765,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User to be there in Adactin login page",
+            "match": {
+              "location": "Adactin.user_to_be_there_in_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 449669919,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User has to fill the \"Gnanasundari\" and \"sundari18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gnanasundari\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"sundari18\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Adactin.user_has_to_fill_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4040300636,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User has to click the Login button",
+            "match": {
+              "location": "Adactin.user_has_to_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151142541,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User has to select the Location Field",
+            "match": {
+              "location": "Adactin.user_has_to_select_the_Location_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127553075,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to select the Hotels",
+            "match": {
+              "location": "Adactin.user_has_to_select_the_Hotels()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 559211137,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to select the Roomtype",
+            "match": {
+              "location": "Adactin.user_has_to_select_the_Roomtype()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134788904,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User has to select the Number of rooms",
+            "match": {
+              "location": "Adactin.user_has_to_select_the_Number_of_rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129745911,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User has to choose the check in Date",
+            "match": {
+              "location": "Adactin.user_has_to_choose_the_check_in_Date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111640219,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User has to choose the Check out Date",
+            "match": {
+              "location": "Adactin.user_has_to_choose_the_Check_out_Date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2262718279,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User has to fill the Select hotel page",
+            "match": {
+              "location": "Adactin.user_has_to_Select_the_Adults_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5676489596,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User has to fill the Book a hotel page",
+            "match": {
+              "location": "Adactin.user_has_to_fill_the_Book_a_hotel_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10040212095,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Verify user is able to print the orderno",
+            "match": {
+              "location": "Adactin.verify_user_is_able_to_print_the_orderno()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Hotel select functionality",
+    "description": "",
+    "id": "to-validate-the-hotel-select-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/SIVA/eclipse-workspace/Day1cumer/src/test/resources/featurefolder/adactin1.feature",
+    "tags": []
+  }
+]

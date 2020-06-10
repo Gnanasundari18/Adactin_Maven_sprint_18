@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.006681">
+<testcase classname="To validate the Hotel select functionality" name="To verify the user can able login with correct credentials" time="0.006681">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.BaseClass.baseClass.loadURl(baseClass.java:21)&#13;&#10;&#9;at org.stepdefintion2.Adactin.user_to_be_there_in_Adactin_login_page(Adactin.java:25)&#13;&#10;&#9;at ✽.User to be there in Adactin login page(C:/Users/SIVA/eclipse-workspace/Day1cumer/src/test/resources/featurefolder/adactin1.feature:6)&#13;&#10;"><![CDATA[Given User to be there in Adactin login page................................failed
+When User has to fill the "Gnanasundari" and "sundari18"....................skipped
+And User has to click the Login button......................................skipped
+When User has to select the Location Field..................................skipped
+And User has to select the Hotels...........................................skipped
+And User has to select the Roomtype.........................................skipped
+And User has to select the Number of rooms..................................skipped
+And User has to choose the check in Date....................................skipped
+And User has to choose the Check out Date...................................skipped
+And User has to fill the Select hotel page..................................skipped
+And User has to fill the Book a hotel page..................................skipped
+Then Verify user is able to print the orderno...............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.BaseClass.baseClass.loadURl(baseClass.java:21)
+	at org.stepdefintion2.Adactin.user_to_be_there_in_Adactin_login_page(Adactin.java:25)
+	at ✽.User to be there in Adactin login page(C:/Users/SIVA/eclipse-workspace/Day1cumer/src/test/resources/featurefolder/adactin1.feature:6)
+]]></failure>
+</testcase>
+</testsuite>
